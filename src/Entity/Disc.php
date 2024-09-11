@@ -19,7 +19,7 @@ class Disc
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $picture = null;
 
-    #[ORM\Column]
+    #[ORM\Column(nullable: true)]
     private ?int $year = null;
 
     #[ORM\Column(length: 255)]
